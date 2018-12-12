@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const CommentDetail = (props) => {
 
   return(
@@ -18,6 +17,7 @@ const CommentDetail = (props) => {
          </div>
          <div className="text">{ props.postText }</div>
        </div>
+
     </div>
 
   );
